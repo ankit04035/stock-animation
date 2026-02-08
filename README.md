@@ -1,0 +1,1 @@
+The Stock Tracker application takes a stock symbol and quantity as input from the user and calculates the total investment amount. It also maintains a running total of all investments made while the application is open.

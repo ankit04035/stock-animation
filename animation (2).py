@@ -46,7 +46,7 @@ while running:
     if progress < 100:
         task_text = small_font.render("Task Running...", True, BLACK)
     else:
-        task_text = small_font.render("Task Completed ✅", True, GREEN)
+        task_text = small_font.render("Task Completed ", True, GREEN)
 
     screen.blit(task_text, (220, 90))
 
@@ -74,3 +74,4 @@ while running:
 
 pygame.quit()
 sys.exit()
+
